@@ -200,7 +200,7 @@ tspan=[t0;t_max;h];         % Paramaters for time vector
 
 %% Solve Using Newmark method
 
-[y2] = Newton_raphson('Residual_UL_static','TangentMatrices_static','BallConst',tspan,y0,v0,l0);
-
+ [y2] = Newton_raphson('Residual_UL_static','TangentMatrices_static','BallConst',tspan,y0,v0,l0);
+% dear professor，i can not find this function
 % plot(tout,yout(:,62))
 
